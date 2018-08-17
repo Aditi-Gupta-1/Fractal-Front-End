@@ -1,0 +1,26 @@
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 40%;
+	border-radius: 5px;
+
+}
+
+.card:hover{
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container{
+	padding: 20px 16px;
+	margin-bottom: 12%;
+}
+
+
+body{
+	text-align: center;
+	background-image: url(IMG-20171012-WA0064.jpg);
+	
+	background-size: cover;
+      background-position: center; 
+
+}
