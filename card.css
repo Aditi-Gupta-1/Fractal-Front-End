@@ -3,24 +3,37 @@
 	transition: 0.3s;
 	width: 40%;
 	border-radius: 5px;
-
+	
 }
 
 .card:hover{
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container{
-	padding: 20px 16px;
-	margin-bottom: 12%;
-}
+.container1{
+	padding:8% 5%;
+	margin:10% 30%;
 
+}
 
 body{
 	text-align: center;
-	background-image: url(IMG-20171012-WA0064.jpg);
-	
+	/*background-image: url(IMG-20171012-WA0064.jpg);*/
 	background-size: cover;
-      background-position: center; 
+    background-position: center; 
+	padding: 70px;
+    }
 
-}
+.navbar{
+     background: #2c3e58;
+     color: #fdfdf5;
+    }
+    
+.navbar-default .navbar-brand {
+ 	 color: white;
+    }
+   .navbar-default .navbar-nav>li>a {
+ 	 color: white;
+    }
+
+
