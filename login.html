@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Login</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" async></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" async></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" async></script>
+
+  <style type="text/css">
+    .navbar{
+        background: #2c3e58;
+    }
+
+    .navbar-expand-sm .navbar-brand {
+      color: white;
+    }
+ 
+    .navbar-expand-sm .navbar-nav >.nav-item>.nav-link{
+      color: white;
+    }
+    
+  </style>
+</head>
+
+<body>
+	
+<!--	<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">Your life is decided by the contents of this page.</p>
+  </div>
+</div>
+-->	
+
+  <nav class="navbar navbar-expand-sm  navbar-light " style="margin-bottom: 10px">
+    <div class="container">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="home.html">
+    <img src="Icon.png" style="width:40px;">Fractal
+  </a></div>
+</nav>
+
+<div class="container">
+<form>
+  <div class="form-group">
+    <label for="user1">Username</label>
+    <input type="email" class="form-control" id="user1" aria-describedby="userHelp" placeholder="Enter Username">
+    <small id="userHelp" class="form-text text-muted">We'll never share your details with anyone else... LOL !!</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+</body>
+</html>
